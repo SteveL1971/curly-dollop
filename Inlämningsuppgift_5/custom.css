@@ -1,0 +1,23 @@
+.bg-blue {
+    background-color: lightcyan;
+}
+
+.todo-done {
+
+    background-color: rgb(144, 238, 144);
+    font-style: italic;
+}
+
+.todo-incomplete {
+    color: black;
+    background-color: rgba(255, 182, 193, 0.281);
+}
+
+.display-none {
+    display:none;
+}
+.w-2 {
+    width: 3rem;
+}
+
+

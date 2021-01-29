@@ -1,0 +1,48 @@
+.bg-main {
+background-color: #afeeee40;
+}
+
+.bg-form {
+    background-color: #afeeee30;
+}
+
+.bg-header {
+    background-color: #afeeee80;
+}
+
+.btn-cyan {
+    color: #fff;
+    background-color: #afeeee;
+    border-color: #afeeee;
+}
+  
+.btn-cyan:hover {
+    color: #fff;
+    background-color: #99cccc;
+    border-color:#99cccc;
+}
+  
+.btn-cyan:focus, .btn-cyan.focus {
+    color: #fff;
+    background-color: #99cccc;
+    border-color:#99cccc;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+  
+.btn-cyan.disabled, .btn-cyan:disabled {
+    color: #fff;
+    background-color: #afeeee;
+    border-color: #afeeee;
+}
+  
+.btn-cyan:not(:disabled):not(.disabled):active, .btn-cyan:not(:disabled):not(.disabled).active,
+.show > .btn-cyan.dropdown-toggle {
+    color: #fff;
+    background-color: #afeeee;
+    border-color: #afeeee;
+}
+  
+.btn-cyan:not(:disabled):not(.disabled):active:focus, .btn-cyan:not(:disabled):not(.disabled).active:focus,
+.show > .btn-cyan.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
